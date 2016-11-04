@@ -32,6 +32,9 @@ COPY collectd/collectd.conf.d/thresholds.conf /mnt/collectd/collectd.conf.d/
 # Collectd configuration directory.
 VOLUME /mnt/collectd
 
+# Collectd database.
+VOLUME /var/lib/collectd
+
 # Set entrypoint script.
 ENTRYPOINT ["/usr/local/bin/docker-entrypoint.sh"]
 
