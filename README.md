@@ -4,7 +4,7 @@
 
 ```bash
 # start collectd
-docker run --privileged --net="host" -v "/:/mnt/root" -v /etc:/mnt/etc:ro -v /dev:/mnt/dev:ro -v /proc:/mnt/proc:ro --name collectd erwinnttdata/collectd:5.4.1-6_deb8u1_001
+docker run --privileged --net="host" -v "/:/mnt/root" -v /etc:/mnt/etc:ro -v /dev:/mnt/dev:ro -v /proc:/mnt/proc:ro --name collectd erwinnttdata/collectd
 ```
 
 ## Description
