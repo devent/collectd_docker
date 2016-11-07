@@ -38,9 +38,17 @@ To test the build locally, the included `Makefile` also have the goals
 * `test-collectd-bash`
   Executes bash inside the container.
 
+```bash
+make test-collectd
+# or,
+make test-collectd-consul
+# or,
+make test-collectd-bash
+```
+
 It depends on an installed Graphite with Carbon instance and uses the write-graphite
 plugin configured in `test-graphite/write_graphite.conf`. The host needs to be
-updated to the real host.
+updated to the real host in the configuration file.
 
 ## Credits
 
