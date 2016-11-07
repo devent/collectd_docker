@@ -1,6 +1,6 @@
 REPOSITORY := erwinnttdata
 NAME := collectd
-VERSION ?= 5.4.1-6_deb8u1_002
+VERSION ?= 5.4.1-6_deb8u1_004
 
 build: _build ##@targets Builds the docker image.
 

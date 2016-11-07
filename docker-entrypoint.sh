@@ -1,7 +1,8 @@
 #!/bin/bash
 set -eo pipefail
 
-mkdir bin etc lib lib64 run sbin sys tmp usr var
+mkdir -p bin etc lib lib64 run sbin sys tmp usr var
+
 mount -o bind /bin bin
 mount -o bind /etc etc
 mount -o bind /lib lib
